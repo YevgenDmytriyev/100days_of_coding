@@ -1,0 +1,17 @@
+def turn_and_move():
+    move()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+i = turn_and_move()
+while i < 6:
+    i += turn_and_move()
+    print(i)
